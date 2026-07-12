@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awlad Hossain Abir — Portfolio</title>
+<meta name="description" content="Computer Science & Engineering undergraduate — portfolio of Awlad Hossain Abir.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+  <!-- ===== NAV ===== -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-mark">AHA<span class="tick">/01</span></a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#learning">Learning</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="grid-overlay" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="eyebrow">SUBJECT — SOFTWARE DEVELOPMENT / SHEET 01</p>
+      <h1 class="hero-name">Awlad Hossain<br>Abir</h1>
+      <p class="hero-role">Computer Science &amp; Engineering Undergraduate<br>Aspiring Software Developer</p>
+
+      <div class="hero-meta">
+        <div class="meta-item">
+          <span class="meta-label">Based in</span>
+          <span class="meta-value">Dhaka, Bangladesh</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Studying at</span>
+          <span class="meta-value">AIUB — BSc CSE</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Status</span>
+          <span class="meta-value">Open to internships</span>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap" aria-hidden="false">
+      <div class="hero-photo-circle" aria-hidden="true"></div>
+      <img src="assets/profile-cutout.png" alt="Awlad Hossain Abir" class="hero-photo">
+      <span class="photo-crosshair tl" aria-hidden="true"></span>
+      <span class="photo-crosshair br" aria-hidden="true"></span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <p class="fig-label">FIG. 02 — ABOUT</p>
+    <div class="section-grid">
+      <h2 class="section-title">About</h2>
+      <div class="section-body">
+        <p>I'm a Computer Science &amp; Engineering undergraduate at American International University-Bangladesh (AIUB), currently in my 6th semester with a CGPA of 3.89. I enjoy building full-stack web applications and am currently strengthening my skills in ASP.NET Core and C# through both coursework and independent projects.</p>
+        <p>Beyond the classroom, I've picked up Python, Java, and web fundamentals through self-directed learning — CS50, Code in Place, and freeCodeCamp — and I try to keep all my work on GitHub as I go. I'm looking for opportunities to apply what I've learned in a real, mentorship-driven engineering environment.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-alt" id="skills">
+    <p class="fig-label">FIG. 03 — TECHNICAL SKILLS</p>
+    <div class="section-grid">
+      <h2 class="section-title">Skills</h2>
+      <div class="section-body">
+        <div class="skill-group">
+          <span class="skill-label">Languages</span>
+          <div class="chips">
+            <span class="chip">C++</span><span class="chip">Java</span><span class="chip">Python</span>
+            <span class="chip">C# <em>(in progress)</em></span><span class="chip">HTML</span><span class="chip">CSS</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <span class="skill-label">Frameworks &amp; Libraries</span>
+          <div class="chips">
+            <span class="chip">ASP.NET Core MVC</span><span class="chip">Entity Framework Core</span><span class="chip">Bootstrap 5</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <span class="skill-label">Databases</span>
+          <div class="chips">
+            <span class="chip">SQL</span><span class="chip">Microsoft SQL Server</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <span class="skill-label">Tools &amp; Platforms</span>
+          <div class="chips">
+            <span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">VS Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <p class="fig-label">FIG. 04 — PROJECTS</p>
+    <div class="section-grid">
+      <h2 class="section-title">Projects</h2>
+      <div class="section-body">
+
+        <article class="project">
+          <div class="project-head">
+            <h3>ParkShare</h3>
+            <span class="status-tag status-dev">In Development</span>
+          </div>
+          <p class="project-sub">Parking space marketplace</p>
+          <p>ParkShare connects drivers looking for parking with owners who have unused parking spaces. Drivers search, compare, and book a spot in advance; owners list unused space and earn extra income; an admin approval workflow keeps every listing verified.</p>
+
+          <ul class="feature-list">
+            <li>User authentication with separate driver &amp; owner roles</li>
+            <li>Listing creation, search, and browsing</li>
+            <li>End-to-end booking workflow with double-booking prevention</li>
+            <li>Admin approval workflow for new listings</li>
+            <li>Transparent pricing engine</li>
+          </ul>
+
+          <div class="chips stack-chips">
+            <span class="chip mono">ASP.NET Core MVC</span><span class="chip mono">EF Core</span>
+            <span class="chip mono">SQL Server</span><span class="chip mono">Bootstrap 5</span><span class="chip mono">ASP.NET Identity</span>
+          </div>
+
+          <!-- Live screenshots from the working ParkShare app -->
+          <div class="carousel" data-carousel>
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <figure class="carousel-slide is-active">
+                  <img src="assets/parkshare-home.jpg" alt="ParkShare homepage">
+                  <figcaption><strong>Homepage</strong> — landing page introducing the marketplace, with entry points to search or list a spot.</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                  <img src="assets/parkshare-search.jpg" alt="ParkShare find parking search">
+                  <figcaption><strong>Find Parking</strong> — drivers search by city, date, and time window to see available spots.</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                  <img src="assets/parkshare-listings.jpg" alt="ParkShare owner listings dashboard">
+                  <figcaption><strong>Owner Dashboard</strong> — owners manage and track the status of their listed spaces.</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                  <img src="assets/parkshare-create-listing.jpg" alt="ParkShare create listing form">
+                  <figcaption><strong>Create Listing</strong> — owners set pricing, availability windows, and spot details.</figcaption>
+                </figure>
+              </div>
+              <button class="carousel-arrow prev" data-carousel-prev aria-label="Previous screenshot">‹</button>
+              <button class="carousel-arrow next" data-carousel-next aria-label="Next screenshot">›</button>
+            </div>
+            <div class="carousel-dots" data-carousel-dots></div>
+          </div>
+
+          <a href="https://github.com/Aabir010/ParkShare" class="btn btn-ghost btn-small" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Chores Management System</h3>
+            <span class="status-tag status-done">Course Project</span>
+          </div>
+          <p class="project-sub">Java desktop application — OOP I</p>
+          <p>Built for my Object-Oriented Programming I course. Designed for students living in shared hostel accommodations — it organizes household chores and fairly distributes them among residents, so no one person ends up doing all the work.</p>
+
+          <ul class="feature-list">
+            <li>GUI-based chore assignment system</li>
+            <li>Fair, automated task distribution logic</li>
+            <li>Built using core OOP principles — encapsulation, inheritance, polymorphism</li>
+          </ul>
+
+          <div class="chips stack-chips">
+            <span class="chip mono">Java</span><span class="chip mono">Java GUI</span>
+          </div>
+
+          <div class="carousel" data-carousel>
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <figure class="carousel-slide is-active">
+                  <img src="assets/chores-main.png" alt="Chores Management main window">
+                  <figcaption><strong>Main Window</strong> — household stats, today's chores, roommate stats, and the weekly schedule at a glance.</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                  <img src="assets/chores-add.jpg" alt="Chores Management add new chore dialog">
+                  <figcaption><strong>Add Chore Dialog</strong> — assign a new task to a roommate for a given date.</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                  <img src="assets/chores-populated.jpg" alt="Chores Management populated dashboard with assigned chores">
+                  <figcaption><strong>Weekly Dashboard</strong> — completion rates and per-roommate stats update automatically as chores are marked done.</figcaption>
+                </figure>
+              </div>
+              <button class="carousel-arrow prev" data-carousel-prev aria-label="Previous screenshot">‹</button>
+              <button class="carousel-arrow next" data-carousel-next aria-label="Next screenshot">›</button>
+            </div>
+            <div class="carousel-dots" data-carousel-dots></div>
+          </div>
+          <p class="project-note">Built as a course submission for AIUB — not published to a public repository.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LEARNING ===== -->
+  <section class="section section-alt" id="learning">
+    <p class="fig-label">FIG. 05 — CERTIFICATIONS &amp; LEARNING</p>
+    <div class="section-grid">
+      <h2 class="section-title">Learning</h2>
+      <div class="section-body">
+        <ul class="learning-list">
+          <li>
+            <span class="learning-name">CS50: Introduction to Computer Science</span>
+            <span class="learning-org">Harvard University</span>
+            <span class="learning-status status-dev">In progress</span>
+          </li>
+          <li>
+            <span class="learning-name">Code in Place</span>
+            <span class="learning-org">Stanford University</span>
+            <a href="assets/CodeInPlace.png" target="_blank" rel="noopener" class="learning-status status-done">Completed</a>
+          </li>
+          <li>
+            <span class="learning-name">Cisco Networking Academy — IT Essentials 8</span>
+            <span class="learning-org">Part of "INTRODUCTION TO COMPUTER STUDIES" course</span>
+            <a href="assets/CiscoIT.jpg" target="_blank" rel="noopener" class="learning-status status-done">Completed</a>
+          </li>
+          <li>
+            <span class="learning-name">Full-Stack Web Development</span>
+            <span class="learning-org">freeCodeCamp</span>
+            <span class="learning-status status-dev">In progress — HTML5 &amp; CSS completed</span>
+          </li>
+        </ul>
+
+        <div class="languages-row">
+          <span class="skill-label">Languages spoken</span>
+          <div class="chips">
+            <span class="chip">Bangla — Native</span>
+            <span class="chip">English — Fluent</span>
+            <span class="chip">Hindi — Conversational</span>
+            <span class="chip">German — Beginner</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact" id="contact">
+    <p class="fig-label">FIG. 06 — CONTACT</p>
+    <div class="section-grid">
+      <h2 class="section-title">Contact</h2>
+      <div class="section-body">
+        <p class="contact-lead">I'd love to hear from you — feel free to reach out.</p>
+        <ul class="contact-list">
+          <li><span class="contact-key">Email</span><a href="mailto:awladabir1971@gmail.com">awladabir1971@gmail.com</a></li>
+          <li><span class="contact-key">Phone</span><a href="tel:+8801777937689">01777-937689</a></li>
+          <li><span class="contact-key">Location</span><span>Dhaka, Bangladesh</span></li>
+          <li><span class="contact-key">GitHub</span><a href="https://github.com/Aabir010" target="_blank" rel="noopener">github.com/Aabir010</a></li>
+          <li><span class="contact-key">LinkedIn</span><a href="https://www.linkedin.com/in/awlad-aabir/" target="_blank" rel="noopener">linkedin.com/in/awlad-aabir</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-cta">
+        <p class="fig-label">FIG. 07 — GET IN TOUCH</p>
+        <h2 class="footer-cta-title">Let's build<br>something together.</h2>
+        <a href="mailto:awladabir1971@gmail.com" class="btn btn-primary btn-large">Say Hello →</a>
+      </div>
+
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-col-title">Navigate</span>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#learning">Learning</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-col-title">Connect</span>
+          <a href="mailto:awladabir1971@gmail.com">Email</a>
+          <a href="tel:+8801777937689">Phone</a>
+          <a href="https://github.com/Aabir010" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/awlad-aabir/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <div class="footer-col footer-col-status">
+          <span class="footer-col-title">Status</span>
+          <p class="footer-status"><span class="status-dot" aria-hidden="true"></span>Open to internship opportunities</p>
+          <p class="footer-location">Dhaka, Bangladesh</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span class="nav-mark">AHA<span class="tick">/01</span></span>
+        <p>© <span id="footerYear">2026</span> Awlad Hossain Abir. Built by hand with HTML, CSS &amp; JS.</p>
+        <a href="#top" class="footer-top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
