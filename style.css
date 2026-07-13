@@ -8,6 +8,9 @@
    ========================================================= */
 
 :root {
+  zoom: 1.25;
+
+
   /* ---- Color tokens ---- */
   --paper:      #F6F5F1;   /* page background */
   --paper-alt:  #EFEEE8;   /* alternate section background */
@@ -207,7 +210,7 @@ h1, h2, h3 { font-family: var(--font-display); margin: 0; color: var(--ink); }
   object-fit: contain; object-position: bottom center;
   display: block;
   filter: drop-shadow(0 30px 40px rgba(22,35,63,0.25));
-  transform: translateY(-40px);
+  transform: translateY(-70px);
 }
 .photo-crosshair { position: absolute; width: 18px; height: 18px; z-index: 3; }
 .photo-crosshair::before, .photo-crosshair::after { content: ""; position: absolute; background: var(--signal); }
