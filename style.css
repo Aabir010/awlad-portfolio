@@ -189,14 +189,15 @@ h1, h2, h3 { font-family: var(--font-display); margin: 0; color: var(--ink); }
 
 .hero-photo-wrap {
   position: relative; height: 100%; min-height: 560px;
-  display: flex; align-items: flex-start; justify-content: center;
+  display: flex; align-items: center; justify-content: center;
   z-index: 1;
   padding-top: 0;
+  margin-top: -30px;
 }
 .hero-photo-circle {
   position: absolute; z-index: 1;
-  width: min(86%, 440px); aspect-ratio: 1/1; border-radius: 50%;
-  top: 6%; left: 50%; transform: translateX(-50%);
+  width: min(76%, 390px); aspect-ratio: 1/1; border-radius: 50%;
+  top: 10%; left: 50%; transform: translateX(-50%);
   background: radial-gradient(circle at 36% 30%, var(--blueprint) 0%, var(--blueprint-dark) 55%, #1E3B57 100%);
   box-shadow: 0 50px 90px -30px rgba(43,89,127,0.55);
 }
@@ -206,12 +207,13 @@ h1, h2, h3 { font-family: var(--font-display); margin: 0; color: var(--ink); }
   object-fit: contain; object-position: bottom center;
   display: block;
   filter: drop-shadow(0 30px 40px rgba(22,35,63,0.25));
+  transform: translateY(-40px);
 }
 .photo-crosshair { position: absolute; width: 18px; height: 18px; z-index: 3; }
 .photo-crosshair::before, .photo-crosshair::after { content: ""; position: absolute; background: var(--signal); }
 .photo-crosshair::before { width: 100%; height: 1.5px; top: 50%; }
 .photo-crosshair::after { height: 100%; width: 1.5px; left: 50%; }
-.photo-crosshair.tl { top: 4px; left: 4px; }
+.photo-crosshair.tl { top: 30px; left: 4px; }
 .photo-crosshair.br { bottom: 4px; right: 4px; }
 
 /* ---------- SECTIONS ---------- */
