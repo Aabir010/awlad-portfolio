@@ -2,7 +2,7 @@
 
 My personal portfolio site, built to showcase my projects, skills, and background as a Computer Science & Engineering undergraduate at AIUB.
 
-🔗 **Live site:** [Add your GitHub Pages link here once deployed]
+🔗 **Live site:** [(https://aabir010.github.io/awlad-portfolio/)]
 
 ## About
 
