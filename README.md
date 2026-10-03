@@ -49,8 +49,3 @@ and visit `http://localhost:8000`.
 ## Deployment
 
 Deployed via GitHub Pages from the `main` branch.
-
-## Contact
-
-- Email: [Your Email Address]
-- GitHub: [github.com/Aabir010](https://github.com/Aabir010)
